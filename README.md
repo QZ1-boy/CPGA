@@ -84,5 +84,13 @@ If this repository is helpful to your research, please cite our paper:
   publisher={IEEE},
   doi={10.1109/LSP.2024.3407536}
 }
+@inproceedings{mo2025oapt,
+  title={OAPT: Offset-Aware Partition Transformer for Double JPEG Artifacts Removal},
+  author={Mo, Qiao and Ding, Yukang and Hao, Jinhua and Zhu, Qiang and Sun, Ming and Zhou, Chao and Chen, Feiyu and Zhu, Shuyuan},
+  booktitle={European Conference on Computer Vision},
+  pages={38--56},
+  year={2025},
+  organization={Springer}
+}
 ```
 We adopt Apache License v2.0. For other licenses, please refer to [DCNv2](https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/blob/master/LICENSE).
