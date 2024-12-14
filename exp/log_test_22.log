@@ -1,0 +1,48 @@
+
+loading model exp/CPGA_vcp_LDB_QP22/ckp_500000.pt...
+> model exp/CPGA_vcp_LDB_QP22/ckp_500000.pt loaded.
+
+<<<<<<<<<< Results >>>>>>>>>>
+BQMall_832x480_600: [39.816] dB -> [40.543] dB Delta:[0.727] 
+SSIM: BQMall_832x480_600: [96.489] dB -> [96.896] dB Delta:[0.407] 
+BQSquare_416x240_600: [37.978] dB -> [39.030] dB Delta:[1.052] 
+SSIM: BQSquare_416x240_600: [95.980] dB -> [96.691] dB Delta:[0.712] 
+BQTerrace_1920x1080_600: [37.727] dB -> [37.808] dB Delta:[0.081] 
+SSIM: BQTerrace_1920x1080_600: [92.660] dB -> [92.715] dB Delta:[0.055] 
+BasketballDrill_832x480_500: [40.128] dB -> [40.803] dB Delta:[0.675] 
+SSIM: BasketballDrill_832x480_500: [95.784] dB -> [96.296] dB Delta:[0.511] 
+BasketballDrive_1920x1080_500: [39.167] dB -> [39.400] dB Delta:[0.233] 
+SSIM: BasketballDrive_1920x1080_500: [93.075] dB -> [93.338] dB Delta:[0.264] 
+BasketballPass_416x240_500: [40.528] dB -> [41.482] dB Delta:[0.954] 
+SSIM: BasketballPass_416x240_500: [97.012] dB -> [97.463] dB Delta:[0.451] 
+BlowingBubbles_416x240_500: [37.654] dB -> [38.672] dB Delta:[1.017] 
+SSIM: BlowingBubbles_416x240_500: [96.715] dB -> [97.267] dB Delta:[0.551] 
+Cactus_1920x1080_500: [38.457] dB -> [38.726] dB Delta:[0.269] 
+SSIM: Cactus_1920x1080_500: [93.025] dB -> [93.267] dB Delta:[0.243] 
+FourPeople_1280x720_600: [42.393] dB -> [43.018] dB Delta:[0.625] 
+SSIM: FourPeople_1280x720_600: [97.381] dB -> [97.631] dB Delta:[0.249] 
+Johnny_1280x720_600: [42.804] dB -> [43.195] dB Delta:[0.391] 
+SSIM: Johnny_1280x720_600: [96.916] dB -> [97.110] dB Delta:[0.194] 
+Kimono_1920x1080_240: [41.479] dB -> [41.909] dB Delta:[0.430] 
+SSIM: Kimono_1920x1080_240: [95.652] dB -> [95.963] dB Delta:[0.311] 
+KristenAndSara_1280x720_600: [43.063] dB -> [43.583] dB Delta:[0.521] 
+SSIM: KristenAndSara_1280x720_600: [97.271] dB -> [97.506] dB Delta:[0.235] 
+ParkScene_1920x1080_240: [39.596] dB -> [40.145] dB Delta:[0.549] 
+SSIM: ParkScene_1920x1080_240: [95.319] dB -> [95.716] dB Delta:[0.397] 
+PartyScene_832x480_500: [37.959] dB -> [38.860] dB Delta:[0.901] 
+SSIM: PartyScene_832x480_500: [96.847] dB -> [97.269] dB Delta:[0.422] 
+PeopleOnStreet_2560x1600_150: [40.483] dB -> [41.040] dB Delta:[0.557] 
+SSIM: PeopleOnStreet_2560x1600_150: [96.764] dB -> [97.048] dB Delta:[0.284] 
+RaceHorses_416x240_300: [39.417] dB -> [40.290] dB Delta:[0.873] 
+SSIM: RaceHorses_416x240_300: [96.882] dB -> [97.372] dB Delta:[0.490] 
+RaceHorses_832x480_300: [39.450] dB -> [39.846] dB Delta:[0.396] 
+SSIM: RaceHorses_832x480_300: [96.238] dB -> [96.540] dB Delta:[0.302] 
+Traffic_2560x1600_150: [41.404] dB -> [42.000] dB Delta:[0.596] 
+SSIM: Traffic_2560x1600_150: [97.434] dB -> [97.725] dB Delta:[0.291] 
+> ori: [39.972] dB
+> ave: [40.575] dB
+> delta: [0.623] dB
+> ori: [95.969] dB
+> ave: [96.323] dB
+> delta: [0.387] dB
+TOTAL TIME: [1.5] h
