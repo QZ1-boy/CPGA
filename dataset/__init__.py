@@ -1,4 +1,4 @@
-from .vpd import VideoTestCVPDwithpriorDatasetV1, CVPDpriorDatasetV0
+from .vcp import VideoTestCVPDwithpriorDatasetV1, CVPDpriorDatasetV0
 # from .ovqe import OVQEDataset
 
 __all__ = [
