@@ -61,9 +61,7 @@ If this repository is helpful to your research, please cite our paper:
 @inproceedings{zhu2024cpga,
   title={CPGA: Coding Priors-Guided Aggregation Network for Compressed Video Quality Enhancement},
   author={Zhu, Qiang and Hao, Jinhua and Ding, Yukang and Liu, Yu and Mo, Qiao and Sun, Ming and Zhou, Chao and Zhu, Shuyuan},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={2964--2974},
-  year={2024}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}
 }
 @article{zhu2024deep,
   title={Deep Compressed Video Super-Resolution With Guidance of Coding Priors},
