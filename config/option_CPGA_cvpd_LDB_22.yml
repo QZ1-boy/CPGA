@@ -11,17 +11,17 @@ dataset:
     pd_folder: LQ_Priors/LD/qp22/pred  # img png
 
     # for dataset lmdb
-    gt_path: cvpd_train_gt.lmdb  #
+    gt_path: cvpd_train_gt.lmdb
     lq_path: cvpd_train_lq_ldb_22.lmdb
     meta_info_fp: meta_info.txt
-    gtmeta_path: sep_trainlist_GT.txt  # sep_testlist_GT.txt
-    lqmeta_path: sep_trainlist_LQ.txt  #
-    mv_path: cvpd_train_mv_ldb_37_int8.lmdb   #  
-    rm_path: cvpd_train_rm_ldb_37.lmdb   #  
+    gtmeta_path: sep_trainlist_GT.txt  
+    lqmeta_path: sep_trainlist_LQ.txt
+    mv_path: cvpd_train_mv_ldb_22_int8.lmdb 
+    rm_path: cvpd_train_rm_ldb_22.lmdb 
     pd_path: cvpd_train_pd_ldb_22.lmdb
     meta_info_fp: meta_info.txt
 
-    gt_size: 224 # 128  # ground truth patch size: gt_size * gt_size
+    gt_size: 224 # ground truth patch size: gt_size * gt_size
     use_flip: True
     use_rot: True  # rotation per 90 degrees
     random_reverse: False
@@ -42,8 +42,8 @@ dataset:
   val:  # Disk IO
     type: VideoTestCVPDwithpriorDatasetV1  # 
     root: ./CPGA/data/VCP/
-    gt_path: test00_data/gt_Y/
-    lq_path: test00_data/LD/qp22/
+    gt_path: test18_data/gt_Y/
+    lq_path: test18_data/LD/qp22/
 
 network:
   radius: 3   # total num of input frame = 2 * radius + 1
@@ -51,15 +51,15 @@ network:
 train:
   exp_name: CPGA_VCP_LDB_QP22  # default: timestr. None: ~
   random_seed: 0
-  pre-val: False # True # True # False  # evaluate criterion before training, e.g., ori PSNR
+  pre-val: False # True # evaluate criterion before training, e.g., ori PSNR
   num_iter: !!float 5e+5
-  interval_print: !!float 100 # 100 # 100 # 100 #100
-  interval_val: !!float  2000 # 5000  # also save model
+  interval_print: !!float 100 # 
+  interval_val: !!float  2000 # also save model
   pbar_len: 100
 
   optim:
     type: Adam
-    lr: !!float 1e-5  # init lr of scheduler
+    lr: !!float 1e-4  # init lr of scheduler
     betas: [0.9, 0.999]
     eps: !!float 1e-08
 
@@ -79,7 +79,7 @@ train:
     unit: dB
 
 test:
-  restore_iter: !!float 500000 # 98000
+  restore_iter: !!float 500000 
   pbar_len: 100
 
   criterion:
