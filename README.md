@@ -93,4 +93,7 @@ If this repository is helpful to your research, please cite our paper:
   organization={Springer}
 }
 ```
+We also release main competitive compressed video quality enhancement models, e.g. [STDF]([https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/blob/master/LICENSE](https://github.com/RyanXingQL/STDF-PyTorch)), [RFDA](https://github.com/zhaominyiz/RFDA-PyTorch), [CF-STIF](https://github.com/xiaomingxige/CF-STIF) and  [STDR](https://github.com/xiaomingxige/STDR).
+
+Our project is built on the [STDF](https://github.com/RyanXingQL/STDF-PyTorch). If there is some problem with the implementation, please refer to [STDF](https://github.com/RyanXingQL/STDF-PyTorch).
 We adopt Apache License v2.0. For other licenses, please refer to [DCNv2](https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/blob/master/LICENSE).
